@@ -1,0 +1,16 @@
+
+
+{
+"Valid" : {
+  "username" : "standard_user",
+  "Password" : "secret_sauce"
+},
+  "inValid" : {
+    "username" : "standard_user",
+    "Password" : "secret_sau"
+  },
+  "EmptyPass" : {
+    "username" : "admin@1",
+    "Password" : ""
+  }
+}
