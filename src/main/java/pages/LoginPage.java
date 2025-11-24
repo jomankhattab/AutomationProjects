@@ -52,10 +52,10 @@ public class LoginPage {
         element.sendKeys(password);
     }
 
-    public void clickLoginButton (){
+    public InventoryPage clickLoginButton (){
         WebElement button= wait .until(ExpectedConditions.elementToBeClickable(loginButtonLocator));
         button.click();
-
+        return new InventoryPage(driver) ;
     }
 
     public String clickLoginButtonAndGetError() {
